@@ -111,11 +111,12 @@ body {
 }
 
 .container {
+  margin: auto;
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 697px;
   width: 450px;
+  height: 697px;
   left: 0px;
   top: 0px;
   border-radius: 20px;
