@@ -103,28 +103,39 @@ section {
 
 body {
   height: 100vh;
-  background-color: #e0e8ff;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
   display: flex;
   justify-content: center;
+  background-color: #e0e8ff;
   align-items: center;
-  font-family: 'Red Hat Display', sans-serif;
+  align-content: center;
 }
 
 .container {
-  margin: auto;
+  margin-top: 102px;
+  margin-bottom: 102px;
+  /* margin: auto; */
   position: relative;
   display: flex;
   flex-direction: column;
   width: 450px;
   height: 697px;
-  left: 0px;
-  top: 0px;
   border-radius: 20px;
   background-color: white;
-  /* border-radius: 20px 20px 0px 0px; */
+}
+
+.photo {
+  height: 220px;
+  width: 450px;
+  border-radius: 20px 20px 0px 0px;
 }
 
 #main-image {
+  /* height: 220px; */
+  width: 100%;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -149,10 +160,6 @@ body {
   margin-right: 48px;
   margin-bottom: 20px;
   text-align: center;
-  height: 78px;
-  left: 10.67%;
-  right: 10.67%;
-  top: calc(50% - 78px / 2 + 9.5px);
   font-family: 'Red Hat Display';
   font-style: normal;
   font-weight: 500;
@@ -314,3 +321,4 @@ button:hover {
   line-height: 20px;
   color: #1f2e55;
 }
+
